@@ -25,3 +25,19 @@
         isStudent: false,
         hobbies: ["reading", "gaming", "coding"],
       };
+        console.log(person); // undefined
+
+        //performing a task
+        function greet(name, lastName) {
+          console.log("Hello, " + name + " " + lastName + " !");
+        }   
+        greet("Alice",  "Lee"); // Hello, Alice!
+
+        //calculating a value
+        function add(a, b) {
+          return a + b;
+        }  
+        let sum = add(5, 10); // 15
+        console.log(sum); // 15
+
+        
