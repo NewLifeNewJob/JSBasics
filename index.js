@@ -7,6 +7,8 @@
        */
       console.log("This is a multi-line comment");
 
+    
+      // Primitive data types in JavaScript
       let name = "John Doe"; // This is a String variable declaration
       let age = 30; // This is number variable declaration
       let isStudent = false; // This is a boolean variable declaration
@@ -14,3 +16,12 @@
       let firstName = null; // This is a null variable declaration
       let lastName; // This is an undefined variable declaration
       console.log(name); // undefined
+
+      //object type
+      let person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 30,
+        isStudent: false,
+        hobbies: ["reading", "gaming", "coding"],
+      };
